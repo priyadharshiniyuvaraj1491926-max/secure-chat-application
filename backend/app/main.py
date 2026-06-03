@@ -3,8 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from datetime import datetime
 import os
-
-from app.database import init_db, get_db
 from app.config import get_settings
 from app.api import health, auth, users, messages, audit
 from app.websocket import chat

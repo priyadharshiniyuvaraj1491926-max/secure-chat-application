@@ -9,7 +9,6 @@ from app.websocket import chat
 from app.security import decode_token
 
 # Initialize database
-init_db()
 
 # Create FastAPI app
 app = FastAPI(
